@@ -4,109 +4,199 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ULTRA PUMPKIN</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
-    <div class="skip">
-        <a href="#contents">본문 바로가기</a>
-    </div>
-    <!-- 스킵 네비게이션 -->
     <header>
         <h1>
-            <a href="#"><img src="images/호박_로고.png" alt="울트라 펌킨"></a>
+            <a href="#"><img src="/images/logo.png" alt="울트라 펌킨"></a>
         </h1>
         <h2 class="hide">대메뉴</h2>
         <nav>
             <ul>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Ultra Shop</a></li>
-                <li><a href="#">Ultra Gift</a></li>
-                <li><a href="#">Ultra Gallery</a></li>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#story">Story</a></li>
+                <li><a href="#letter">Letter</a></li>
+                <li><a href="#sns">Sns</a></li>
             </ul>
         </nav>
         <div class="service_area">
-            <span>🎃</span>
-            <span>🛒</span>
-            <span>🔍</span>
+            <a href="/join.html" class="service_icon">🎃</a>
+            <a href="#" class="service_icon">🛒</a>
+            <a href="#" class="service_icon">🔍</a>
         </div>
     </header>
     <!-- 헤더 영역 -->
-    <section class="item1_wrap wrap">
-        <div class="item1_content content">
-            <img src="images/호박_메인주스.jpg" alt="울트라펌킨주스 신제품">
-            <div class="item1_title item">
-                <strong class="title titlePaint">NEW, ULTRA</strong>
-                <strong class="title titlePaint">NEW, ULTRA</strong>
-                <strong class="title">PUMPKIN JUICE!</strong>
-                <a href="#" class="item_moreBtn moreBtn">호박 100%의 완벽한 호박주스 맛보기!</a>
+    <section class="visual section" id="intro">
+        <div class="item item1">
+            <p class="title">NEW, ULTRA</p>
+            <p class="title">PUMPKIN JUICE!</p>
+            <a href="#" class="moreBtn">호박 100%의 완벽한 호박주스 맛보기</a>
+        </div>
+        <div class="item item2">
+            <p class="title">보다 더 가볍게,</p>
+            <p class="title">내 몸을 위한 특별한 선물!</p>
+            <a href="#" class="moreBtn">울트라 펌킨티의 베스트 상품 보기</a>
+        </div>
+        <div class="item item3">
+            <p class="title">LIterally,</p>
+            <p class="title">자연과 가장 가깝게!</p>
+            <a href="#" class="moreBtn">건강하고 정직한 원료 살피기</a>
+        </div>
+    </section>
+    <!-- 메인 비주얼 슬라이드  -->
+    <section class="item3_wrap section" id="shop">
+        <div class="item3_content">
+            <div class="item3_title subTitle">
+                <p class="itemTitle">Ultra Pumpkin Shop</p>
+                <span class="itemInfo">마음에 드는 호박을 골라보세요.</span>
+            </div>
+            <div class="slider">
+                <div class="slider_item">
+                    <a href="#">
+                        <div class="product">
+                            <img src="/images/product_01.jpg" alt="상품1">
+                        </div>
+                    </a>
+                    <div class="product_inner">
+                        <p class="name">울트라펌킨 플레이크 35g</p>
+                        <ul class="element">
+                            <li>
+                                <span>최적의 영양 밸런스 플레이크!</span>
+                                <del>3,600원</del>
+                                <ins>2,900원</ins>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slider_item">
+                    <a href="#">
+                        <div class="product">
+                            <img src="/images/product_03.jpg" alt="상품2">
+                        </div>
+                    </a>
+                    <div class="product_inner">
+                        <p class="name">울트라펌킨 100% 호박티</p>
+                        <ul class="element">
+                            <li>
+                                <span>국내산 호박 100%의 진한 맛!</span>
+                                <del>22,000원</del>
+                                <ins>14,900원</ins>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slider_item">
+                    <a href="#">
+                        <div class="product">
+                            <img src="/images/product_06.jpg" alt="상품3">
+                        </div>
+                    </a>
+                    <div class="product_inner">
+                        <p class="name">울트라펌킨 100% 호박즙</p>
+                        <ul class="element">
+                            <li>
+                                <span>물 한방울 섞이지 않은 호박100% 저온착즙!</span>
+                                <del>40,000원</del>
+                                <ins>34,900원</ins>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slider_item">
+                    <a href="#">
+                        <div class="product">
+                            <img src="/images/product_01.jpg" alt="상품1">
+                        </div>
+                    </a>
+                    <div class="product_inner">
+                        <p class="name">울트라펌킨 플레이크 35g</p>
+                        <ul class="element">
+                            <li>
+                                <span>최적의 영양 밸런스 플레이크!</span>
+                                <del>3,600원</del>
+                                <ins>2,900원</ins>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slider_item">
+                    <a href="#">
+                        <div class="product">
+                            <img src="/images/product_03.jpg" alt="상품2">
+                        </div>
+                    </a>
+                    <div class="product_inner">
+                        <p class="name">울트라펌킨 100% 호박티</p>
+                        <ul class="element">
+                            <li>
+                                <span>국내산 호박 100%의 진한 맛!</span>
+                                <del>22,000원</del>
+                                <ins>14,900원</ins>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slider_item">
+                    <a href="#">
+                        <div class="product">
+                            <img src="/images/product_06.jpg" alt="상품3">
+                        </div>
+                    </a>
+                    <div class="product_inner">
+                        <p class="name">울트라펌킨 100% 호박즙</p>
+                        <ul class="element">
+                            <li>
+                                <span>물 한방울 섞이지 않은 호박100% 저온착즙!</span>
+                                <del>40,000원</del>
+                                <ins>34,900원</ins>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- 울트라펌킨 메인1  -->
-    <section class="item2_wrap wrap">
-        <div class="item2_content content">
-            <img src="images/호박_메인박스.jpg" alt="울트라펌킨티 박스">
-            <div class="item2_title item">
-                <strong class="title titlePaint">보다 더 가볍게,</strong>
-                <strong class="title titlePaint">보다 더 가볍게,</strong>
-                <strong class="title">내 몸을 위한 특별한 선물!</strong>
-                <a href="#" class="item_moreBtn moreBtn">울트라 펌킨티의 베스트 상품 보기!</a>
-            </div>
-        </div>
-    </section>
-    <!-- 울트라펌킨 메인2 -->
-    <section class="item3_wrap wrap">
-        <div class="item3_content content">
-            <img src="images/호박_메인포장.jpg" alt="울트라펌킨티 호박">
-            <div class="item3_title item">
-                <strong class="title titlePaint">LIterally,</strong>
-                <strong class="title titlePaint">LIterally,</strong>
-                <strong class="title">자연과 가장 가깝게!</strong>
-                <a href="" class="item_moreBtn moreBtn">건강하고 정직한 원료 살피기!</a>
-            </div>
-        </div>
-    </section>
-    <!-- 울트라펌킨 메인3 -->
-    <section class="item4_wrap">
+    <!-- 프로덕트 영역  -->
+    <section class="item4_wrap section" id="story">
         <div class="item4_content">
             <p class="intro_title">울트라펌킨은 국내 최초<br>호박 전문 브랜드입니다.</p>
             <ul class="main_product">
                 <li>
-                    <img src="images/호박_박스.jpg" alt="울트라펌킨티 포장">
+                    <img src="/images/story01.jpg" alt="호박사진1">
                     <div class="img_hover">
                         <p>Global No.1 Pumpkin Brand<br><span>전문가들의 끊임없는 연구</span></p>
-                        <i class="far fa-arrow-alt-circle-right"></i>
                     </div>
                 </li>
                 <li>
-                    <img src="images/호박_티백.jpg" alt="울트라펌킨티 티백">
+                    <img src="/images/story02.jpg" alt="호박사진2">
                     <div class="img_hover">
                         <p>디테일의 힘<br><span>호박의 본질 정의, 가치 전달</span></p>
-                        <i class="far fa-arrow-alt-circle-right"></i>
                     </div>
                 </li>
                 <li>
-                    <img src="images/호박_디스플레이.jpg" alt="울트라펌킨주스 세트">
+                    <img src="/images/story03.jpg" alt="호박사진3">
                     <div class="img_hover">
                         <p>제품 그 이상의 경험<br><span>고객들의 효용을 위한 도전</span></p>
-                        <i class="far fa-arrow-alt-circle-right"></i>
                     </div>
                 </li>
                 <li>
-                    <img src="images/호박_호박3개.jpg" alt="울트라펌킨티 호박">
+                    <img src="/images/story04.jpg" alt="호박사진4">
                     <div class="img_hover">
                         <p>자연과 가까운 상태<br><span>건강하고 정직한 원료사용</span></p>
-                        <i class="far fa-arrow-alt-circle-right"></i>
                     </div>
                 </li>
                 <li>
-                    <img src="images/호박_박스내부.png" alt="울트라펌킨티 포장 내부">
+                    <img src="/images/story05.jpg" alt="호박사진5">
                     <div class="img_hover">
                         <p>Simple is the Best<br><span>군더더기 없는 패키지</span></p>
-                        <i class="far fa-arrow-alt-circle-right"></i>
                     </div>
                 </li>
             </ul>
@@ -117,59 +207,148 @@
         </div>
     </section>
     <!-- 울트라펌킨 상품 이미지 -->
-    <section class="item5_wrap">
+    <section class="item5_wrap section" id="letter">
         <div class="item5_content content">
-            <div class="item5_title">
-                <p>ULTRAPUMPKIN IS COMING</p>
-                <span>건강한 나를 위해 울트라펌킨을 구독해보세요</span>
+            <div class="item5_title subTitle">
+                <p class="itemTitle">Ultra Pumpkin Is Coming</p>
+                <span class="itemInfo">건강한 나를 위해 울트라펌킨을 구독해보세요</span>
             </div>
             <div class="submit">
                 <div class="submit_info">
                     <li>
                         <i class="fas fa-map-marker-alt"></i>
-                        <span>서울특별시 강서구 공향대로 227 (마곡동) 마곡센트럴타워 413호</span>
+                        <span>서울특별시 강서구 공향대로 123 호박타워 456호</span>
                     </li>
                     <li>
                         <i class="fas fa-paper-plane"></i>
-                        <span>marketing@tagliner.co.kr</span>
+                        <span>lorem@email.co.kr</span>
                     </li>
                     <li>
                         <i class="fas fa-mobile-alt"></i>
-                        <span>070.4154.5553</span>
+                        <span>010.1234.5678</span>
                     </li>
                 </div>
                 <form class="submit_user">
+                    <label for="name" class="label">이름</label>
                     <input placeholder="이름을 입력해주세요" type="text" name="name" id="name">
-                    <input placeholder="이메일을 입력해주세요" type="text" name="emain" id="email">
-                    <textarea placeholder="울트라펌킨에게 하고 싶은 말이 있나요?" name="comments" id="comments"></textarea>
+                    <label for="email" class="label">이메일</label>
+                    <input placeholder="이메일을 입력해주세요" type="text" name="email" id="email">
+                    <label for="comments" class="label">궁금한 점</label>
+                    <textarea name="comments" id="comments" rows="10" cols="30"></textarea>
                     <button class="submit_btn">구독하기</button>
                 </form>
             </div>
         </div>
     </section>
     <!-- 울트라펌킨 구독 영역 -->
-    <footer>
+    <footer class="section" id="sns">
         <div class="footer_wrap">
             <div class="footer_company">
-                <p class="footer_title">COMPANY</p>
-                <ul>
-                    <li>COMPANY. 주식회사 호박회사</li>
-                    <li>OWNER. 홍길동</li>
-                    <li>국민은행 123456-78-910112</li>
-                    <li>예금주 : 주식회사 호박회사</li>
-                </ul>
-            </div>
-            <div class="footer_call">
-                <p class="footer_title">문의하기</p>
-                <div class="footer_call_sns">
-                    <a href="#">@KAKAO TALK</a>
-                    <a href="#">@Instagram</a>
-                    <span>본 웹사이트는 개인 작업용입니다.</span>
+                <div class="footer_title subTitle">
+                    <p class="itemTitle">Ultra Pumpkin Sns</p>
+                    <span class="itemInfo">울트라펌킨을 SNS에 자랑하세요</span>
+                </div>
+                <div class="footer_sns">
+                    <div class="sns">
+                        <div class="sns_single">
+                            <img src="/images/sns01.jpg" alt="울트라펌킨 sns 1">
+                            <div class="single_detail">
+                                <strong>Hobak_Lover님</strong>
+                                <span>만족해서<br>재구입합니다!</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sns">
+                        <div class="sns_single">
+                            <img src="/images/sns02.jpg" alt="울트라펌킨 sns 2">
+                            <div class="single_detail">
+                                <strong>ILoveUltra님</strong>
+                                <span>고소해서<br>너무 맛있어요.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sns">
+                        <div class="sns_single">
+                            <img src="/images/sns03.jpg" alt="울트라펌킨 sns 3">
+                            <div class="single_detail">
+                                <strong>Pumpkin_Tea님</strong>
+                                <span>선물용으로도<br>딱이예요!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_inner">
+                    <div class="footer_inner_info">
+                        <div class="footer_left">
+                            <p class="footer_label">COMPANY</p>
+                            <ul>
+                                <li><em>COMPANY</em> 주식회사 호박회사</li>
+                                <li><em>OWNER</em> 홍길동</li>
+                                <li><em>국민은행</em> 123456-78-910112</li>
+                                <li><em>예금주</em> 주식회사 호박회사</li>
+                            </ul>
+                        </div>
+                        <div class="footer_right">
+                            <p class="footer_label">문의하기</p>
+                            <ul>
+                                <li><a href="#">@KAKAO TALK</a></li>
+                                <li><a href="#">@Instagram</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="info">본 웹사이트는 개인 작업용입니다.</p>
                 </div>
             </div>
         </div>
     </footer>
     <!-- 푸터 영역 -->
-    <script defer src="js/scroll.js"></script>
+    <script defer src="/js/scroll.js"></script>
+    <script defer src="/js/nav.js"></script>
+    <script defer src="/js/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        // 부드러운 스크롤
+        $('window').scrollTop({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        });
+
+        //메인 비주얼 슬릭
+        $('.visual').slick({
+            autoplay : true,
+            pauseOnHover : false,
+            draggable : true
+        });
+
+        //상품 영역 센터슬릭
+        $('.slider').slick({
+            centerMode: true,
+            autoplay : true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                }
+            },
+            {
+            breakpoint: 320,
+            settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 2
+                }
+            }
+        ]
+        });
+    </script>
 </body>
 </html>
