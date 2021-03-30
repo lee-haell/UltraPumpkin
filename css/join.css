@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+body {
+  height: 100vh;
+  background: url("/images/login.jpg") no-repeat center/cover;
+}
+
+body::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: #e7551a;
+  opacity: 0.6;
+}
+
+header .logo {
+  padding-left: 0.2rem;
+}
+
+.wrap {
+  width: calc(100% - 20rem);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrap .inner {
+  width: 100%;
+  height: 511px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 3rem;
+  box-sizing: border-box;
+}
+
+header {
+  width: 35%;
+  float: left;
+}
+
+header .logo a {
+  display: block;
+  margin-bottom: 7rem;
+}
+
+header .cont .cont_in {
+  display: block;
+  font-family: "Krona One", sans-serif;
+  font-size: 2.15rem;
+  line-height: 60px;
+  color: #e7551a;
+}
+
+header .cont .cont_in:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 1px #e7551a;
+}
+
+.info {
+  float: right;
+  width: 55%;
+}
+
+.info form {
+  padding: 0.5rem 0 1rem 0;
+  background: #fff;
+}
+
+.info label {
+  display: block;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.75rem;
+  color: #e7551a;
+  margin-bottom: 0.5rem;
+}
+
+.info input.in {
+  width: 100%;
+  height: 61px;
+  border: 1px solid #222;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.info .btn button.join_btn {
+  width: 100%;
+  height: 44px;
+  border-radius: 5px;
+  margin: 0 auto;
+  cursor: pointer;
+  background: #e7551a;
+  color: #fff;
+  font-size: 0.7rem;
+  font-family: "Krona One", sans-serif;
+}
+
+.info .footer {
+  text-align: center;
+  padding-top: 0.75rem;
+  border-top: 1px solid #222;
+}
+
+.info .footer address {
+  display: inline-block;
+}
+
+.info .footer em:nth-child(1) {
+  float: left;
+  padding-right: 1rem;
+}
+
+.info .footer em img {
+  width: 120px;
+  padding-left: 0.1rem;
+}
+
+.info .footer em.copy {
+  float: left;
+  font-size: 0.7rem;
+  line-height: 34px;
+}
+
+.footer ul::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.footer ul {
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer li {
+  position: relative;
+  width: 25%;
+  float: left;
+  padding: 0.4rem 0.5rem;
+  box-sizing: border-box;
+}
+
+.footer li::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 5px;
+  background: #222;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.footer li:first-child::after {
+  display: none;
+}
+
+.footer li a {
+  display: block;
+  font-size: 0.6rem;
+  color: #222;
+}
+
+.footer .port {
+  display: block;
+  margin-top: 0.3rem;
+  font-size: 0.85rem;
+}
