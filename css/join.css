@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0, 0);
+  margin: -1px;
+  overflow: hidden;
+}
+
 body {
   height: 100vh;
   background: url("/images/login.jpg") no-repeat center/cover;
@@ -21,7 +30,7 @@ header .logo {
 }
 
 .wrap {
-  width: calc(100% - 20rem);
+  width: calc(100% - 40rem);
   position: relative;
   top: 50%;
   left: 50%;
@@ -66,7 +75,7 @@ header .cont .cont_in:nth-child(1) {
 }
 
 .info form {
-  padding: 0.5rem 0 1rem 0;
+  padding: 0 0 1rem 0;
   background: #fff;
 }
 
